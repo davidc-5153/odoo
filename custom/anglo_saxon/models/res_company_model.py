@@ -10,3 +10,4 @@ class ResCompany(models.Model):
     _inherit = 'res.company' 
 
     active = fields.Boolean(string="Active", required=True, default=True)
+    
